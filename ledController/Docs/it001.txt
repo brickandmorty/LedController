@@ -14,3 +14,13 @@ Story 1.1 (ingesamt 8 Storypoints)
 
 
 
+1. Daily
+
+Status:
+Forken erl.
+Klonen erl.
+Docs-Ordner erstellen erl.
+
+Issues erstellen erl. (Sub-Issues noch zu erstellen)
+Story 1.1 offen
+
