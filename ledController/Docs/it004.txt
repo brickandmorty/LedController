@@ -15,6 +15,8 @@ Story 2.3 (5 Storypoints) - Daniel
 
 1. Daily
 
+bisher nichts abgeschlossen, alle arbeiten an den Tasks
+Probleme beim Einlesen einer konkreten ID für die status-Abfrage
 
 
 
