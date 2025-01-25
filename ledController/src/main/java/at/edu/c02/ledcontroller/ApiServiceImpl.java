@@ -1,6 +1,5 @@
 package at.edu.c02.ledcontroller;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -8,7 +7,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
@@ -33,8 +31,7 @@ public class ApiServiceImpl implements ApiService {
         return getJSONObject(url);
     }
 
-    @Override
-    public JSONObject getLights(int id) throws IOException {
+    public JSONObject getLight(int id) throws IOException {
         URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/lights/"+id);
         return getJSONObject(url);
     }
