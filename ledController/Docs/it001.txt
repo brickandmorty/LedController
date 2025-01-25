@@ -1,0 +1,16 @@
+Spring Planning 1. Sprint
+
+Tasks:
+
+Forken (1 Storypoint)
+Klonen (1 Storypoint)
+Issues erstellen (2 Storypoints)
+Docs-Ordner erstellen (1 Storypoint)
+
+Story 1.1 (ingesamt 8 Storypoints)
+- Erweitern um get Ligth(id)
+- Refactoren
+- Keine Code Duplication
+
+
+
