@@ -7,4 +7,7 @@ public interface LedController {
     void demo() throws IOException;
 
     JSONArray getGroupLeds(String groupName) throws IOException;
+
+    // Schaltet alle LEDs aus
+    void turnOffAllLeds() throws IOException;
 }
