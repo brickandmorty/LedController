@@ -13,6 +13,9 @@ Story 1.2 (5 Storypoints) - Daniel, Sara
 
 1. Daily
 
+Entwickler arbeiten mit unterschiedlichen JDK-Versionen ==> Probleme beim Updaten
+
+
 2. Daily
 
 
