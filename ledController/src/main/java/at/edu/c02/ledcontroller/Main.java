@@ -6,6 +6,7 @@ import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -18,6 +19,7 @@ public class Main {
             System.out.println("=== LED Controller ===");
             System.out.println("Enter 'demo' to fetch all lights");
             System.out.println("Enter 'group <name>' to get the status of LEDs in a group (e.g., 'group B')");
+            System.out.println("Enter 'groupstatus <name<' to get the status of all LEDs in a group");
             System.out.println("Enter 'exit' to exit the program");
             input = reader.readLine();
 
