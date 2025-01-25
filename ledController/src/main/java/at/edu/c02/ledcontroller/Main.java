@@ -44,12 +44,19 @@ public class Main {
                             System.out.println("LED " + led.getInt("id") + " is currently on: Color: " + led.getString("color"));
                         } else {
                             System.out.println("LED " + led.getInt("id") + " is currently off: " + isOn + " Color: " + led.getString("color"));
-
-
                         }
 
                     }
                 }
+            }
+            else if (input.equalsIgnoreCase("status")) {
+                System.out.println("Please specify LED ID:");
+                input = reader.readLine();
+                ApiService apiService = new ApiServiceImpl();
+                JSONObject jo = apiService.getLight(Integer.parseInt(input));
+                System.out.println(jo.toString());
+
+
             }
             else if (input.startsWith("group")) {
                 try {
