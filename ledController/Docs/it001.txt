@@ -1,3 +1,6 @@
+2025_01_25
+Gruppe A
+
 Spring Planning 1. Sprint
 
 Tasks:
@@ -23,4 +26,16 @@ Docs-Ordner erstellen erl.
 
 Issues erstellen erl. (Sub-Issues noch zu erstellen)
 Story 1.1 offen
+
+
+
+1. Retro
+
+Issues erstellt (inkl. Epic 1)
+Projekt Setup problematisch (aufgrund fehlendes .gitgnores keine Updates möglich)
+Story 1.1 noch immer offen
+- mögliche Implementierungsmöglichkeiten besprochen
+- aktuelle Herausforderung: Einbau der Abfrage der ID (an welcher Code-Stelle?)
+- Klärung notwndig, ob tatsächlich eine eigene Methode für ausgelagerte Codeteile erforderlich ist
+
 
