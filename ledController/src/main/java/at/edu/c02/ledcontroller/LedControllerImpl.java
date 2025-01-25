@@ -48,4 +48,23 @@ public class LedControllerImpl implements LedController {
 
         return groupLeds; // Gefilterte LEDs zurückgeben
     }
+
+
+    @Override
+    public void turnOffAllLeds() throws IOException {
+        // Alle LEDs abrufen
+        JSONObject lightsData = apiService.getLights();
+        JSONArray lights = lightsData.getJSONArray("lights");
+
+        // For-Schleife durchlaufen, um jede LED auszuschalten
+        for (int i = 0; i < lights.length(); i++) {
+            JSONObject light = lights.getJSONObject(i);
+            int id = light.getInt("id"); // LED-ID abrufen
+            String color = light.getString("color"); // Aktuelle Farbe abrufen
+            apiService.putLight(id, color, false); // LED ausschalten
+        }
+
+        // Erfolgsmeldung ausgeben
+        System.out.println("All LEDs turned off.");
+    }
 }
