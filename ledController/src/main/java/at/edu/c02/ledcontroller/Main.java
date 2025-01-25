@@ -17,6 +17,11 @@ public class Main {
             System.out.println("Enter 'exit' to exit the program");
             input = reader.readLine();
 
+            if (input.equalsIgnoreCase("turnOffAllLeds")) {
+
+                ledController.turnOffAllLeds();
+            }
+
             if (input.equalsIgnoreCase("demo")) {
                 ledController.demo();
             } else if (input.startsWith("group")) {
