@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 
 public class ApiServiceImplTest {
     @Test
-    public void e2ePutRequest() throws IOException {
+    public void e2ePutRequest() throws IOException, InterruptedException {
         int id = 55;
         String color = "#ff0000";
 
@@ -19,5 +19,14 @@ public class ApiServiceImplTest {
         apiService.putLight(id, color, true);
         assertTrue(apiService.getLight(55).getJSONArray("lights").getJSONObject(0).getBoolean("on"));
 
+        color = "#fcba03";
+        apiService.putLight(id, color, true);
+        assertTrue(apiService.getLight(55).getJSONArray("lights").getJSONObject(0).getBoolean("on"));
+
+        color = "#03a5fc";
+        apiService.putLight(id, color, true);
+        assertTrue(apiService.getLight(55).getJSONArray("lights").getJSONObject(0).getBoolean("on"));
+
+        apiService.putLight(id, color, false);
     }
 }
