@@ -1,6 +1,5 @@
 package at.edu.c02.ledcontroller;
 
-import org.json.JSONObject;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -15,10 +14,10 @@ public class ApiServiceImplTest {
 
         ApiServiceImpl apiService = new ApiServiceImpl();
         apiService.putLight(id, color, false);
-        assertFalse(apiService.getLights(55).getJSONArray("lights").getJSONObject(0).getBoolean("on"));
+        assertFalse(apiService.getLight(55).getJSONArray("lights").getJSONObject(0).getBoolean("on"));
 
         apiService.putLight(id, color, true);
-        assertTrue(apiService.getLights(55).getJSONArray("lights").getJSONObject(0).getBoolean("on"));
+        assertTrue(apiService.getLight(55).getJSONArray("lights").getJSONObject(0).getBoolean("on"));
 
     }
 }
