@@ -1,0 +1,68 @@
+{
+  "lights": [
+    {
+      "color": "#f00",
+      "id": 54,
+      "groupByGroup": {
+        "name": "A"
+      },
+      "on": false
+    },
+    {
+      "color": "#ff0000",
+      "id": 55,
+      "groupByGroup": {
+        "name": "A"
+      },
+      "on": true
+    },
+    {
+      "color": "#f00",
+      "id": 56,
+      "groupByGroup": {
+        "name": "A"
+      },
+      "on": false
+    },
+    {
+      "color": "#f00",
+      "id": 57,
+      "groupByGroup": {
+        "name": "A"
+      },
+      "on": false
+    },
+    {
+      "color": "#f00",
+      "id": 58,
+      "groupByGroup": {
+        "name": "A"
+      },
+      "on": false
+    },
+    {
+      "color": "#f00",
+      "id": 59,
+      "groupByGroup": {
+        "name": "A"
+      },
+      "on": false
+    },
+    {
+      "color": "#f00",
+      "id": 60,
+      "groupByGroup": {
+        "name": "A"
+      },
+      "on": false
+    },
+    {
+      "color": "#f00",
+      "id": 61,
+      "groupByGroup": {
+        "name": "A"
+      },
+      "on": false
+    }
+  ]
+}
