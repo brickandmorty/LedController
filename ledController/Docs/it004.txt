@@ -24,10 +24,33 @@ Story 1.3 erl. (5 Storypoints)
 
 2. Daily
 
-
+Story 2.2 nicht abgeschlossen
+Story 2.3 nicht abgschlossen
 
 
 
 
 4. Retro
 
+Story 1.3 erl. (5 Storypoints)
+
+5 von 30 Storypoints erreicht
+
+Verzögerungen bei Story 2.2. - Test: Fehler konnte nicht gefunden werden, beim Ändern wurde
+unbeabsichtigt in mehreren Klassen geändert, es musste alles rückgängig gemacht werden; Ergebnis: nur Methode, nicht Test implementiert
+
+neue geheimer Schlüssel musste angefordert werden, da erster geheimer Schlüssel abgelaufen
+
+Probleme mit Versionsverfolgung, tlw. aktuelle Versionen lokal überschrieben
+
+Einschätzung der Storypoints generell zu optimistisch
+
+
+
+
+Conclusio zum Projekt:
+
+- Java-Kenntnisse zu rudimentär, um die Aufgaben in der vorhandenen Zeit zu lösen
+- zu optimistische Schätzung der schaffbaren Storypoints je Sprint
+- Frustration durch mangelnde Erfolgserlebnisse
+- Probleme mit Versionsverfolgung ==> häufige Probleme mit unterschiedlichen Versionen bei den Teammitgliedern
