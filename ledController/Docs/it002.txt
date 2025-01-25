@@ -18,5 +18,9 @@ Entwickler arbeiten mit unterschiedlichen JDK-Versionen ==> Probleme beim Update
 
 2. Daily
 
+Probleme beim Updaten des Projekts bei einem Gruppenmitglied
+Story 1.1 abgeschlossen
+Story 1.2. noch in Erarbeitung
+Story 2.1 schneller als geplant in Erarbeitung
 
 2. Retro
