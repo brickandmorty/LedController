@@ -33,7 +33,18 @@ Issue #23 erl.
 
 2. Daily
 
+ausgelassen, ständige Updates im Team
+
+
 
 
 3. Retro
 
+Story 2.2. Methode implementiert, Test in Erstellung (LED wird ausgeschalten, ist lt. Test aber noch ein)
+Story 1.2 erl.
+Story 1.3 groupstatus-Abfrage implementiert, status-Abfrage fehlt noch
+Issue #23 erl.
+
+6 Storypoints von 22 Storypoints erl.
+
+Zusammenarbeit in den Teams funktioniert immer besser, Teams "eingearbeitet", Aufwand für Implementierungen unterschätzt
