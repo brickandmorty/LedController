@@ -11,3 +11,4 @@ Story 1.1 (ingesamt 8 Storypoints)
 - Erweitern um get Ligth(id)
 - Refactoren
 - Keine Code Duplication
+
