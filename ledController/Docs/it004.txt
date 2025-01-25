@@ -4,9 +4,12 @@ Gruppe A
 
 
 
-Sprint Planning 3. Sprint
+Sprint Planning 4. Sprint
 
 Tasks:
+Story 1.3 fertigstellen (status-Befehl) (5 Storypoints) - Leonid
+Story 2.2 fertigstellen/Fehler bei Test finden (20 Storypoints) - Sara
+Story 2.3 (5 Storypoints) - Daniel
 
 
 
@@ -23,5 +26,5 @@ Tasks:
 
 
 
-3. Retro
+4. Retro
 
