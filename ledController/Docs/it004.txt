@@ -18,6 +18,7 @@ Story 2.3 (5 Storypoints) - Daniel
 bisher nichts abgeschlossen, alle arbeiten an den Tasks
 Probleme beim Einlesen einer konkreten ID für die status-Abfrage
 
+Story 1.3 erl. (5 Storypoints)
 
 
 
