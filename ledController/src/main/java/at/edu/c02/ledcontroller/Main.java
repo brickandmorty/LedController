@@ -23,17 +23,8 @@ public class Main {
                 ledController.demo();}
 
 
-            else if (input.startsWith("groupstatus")){
-                    try {
-                        String groupName = input.split("", 2)[1];
-                        System.out.println("LED.");
 
-
-                    } catch(Exception e){
-                        System.err.println("Invalid input. Please use 'groupstatus <name>'.");
-
-                    }
-            } else if (input.startsWith("group")) {
+            else if (input.startsWith("group")) {
                 try {
                     String groupName = input.split(" ", 2)[1]; // Gruppenname extrahieren
                     System.out.println("Fetching LEDs for group: " + groupName);
