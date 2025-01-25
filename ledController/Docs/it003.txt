@@ -4,9 +4,18 @@ Gruppe A
 
 
 
-Spring Planning 3. Sprint
+Sprint Planning 3. Sprint
 
 Tasks:
+Story 1.2. - Test (5 Storypoints) - Leonid, Petra
+Story 1.3 (8 Storypoints) - Leonid, Petra
+
+Story 2.2 (8 Storypoints) - Sara, Daniel
+
+Issue #23 erledigen - Petra (1 Storypoint)
+
+noch nicht in diesem Sprint; "Vorbewertung", falls mehr geschafft wird als geplant:
+Story 2.3 (13 Storypoints)
 
 
 

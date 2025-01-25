@@ -3,7 +3,7 @@ Gruppe A
 
 
 
-Spring Planning 2. Sprint
+Sprint Planning 2. Sprint
 
 Tasks:
 
