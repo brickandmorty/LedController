@@ -2,10 +2,7 @@ package at.edu.c02.ledcontroller;
 
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -41,9 +38,11 @@ public class ApiServiceImpl implements ApiService {
         URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/setLight");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
+        String secret = readSecretFromFile();
+
         connection.setRequestMethod("PUT");
         connection.setRequestProperty("Content-Type", "application/json; utf-8");
-        connection.setRequestProperty("X-Hasura-Group-ID", "5f26cca3877ad");
+        connection.setRequestProperty("X-Hasura-Group-ID", secret);
         connection.setDoOutput(true); // Enable output since we are sending data
 
         String jsonInputString = String.format(
@@ -115,4 +114,10 @@ public class ApiServiceImpl implements ApiService {
 
     }
 
-}
+    private String readSecretFromFile() throws IOException {
+        try (BufferedReader reader = new BufferedReader(new FileReader("secret.txt"))) {
+            return reader.readLine();
+        }
+    }
+
+    }
