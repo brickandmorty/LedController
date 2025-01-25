@@ -1,6 +1,8 @@
 2025_01_25
 Gruppe A
 
+
+
 Spring Planning 1. Sprint
 
 Tasks:
@@ -31,11 +33,20 @@ Story 1.1 offen
 
 1. Retro
 
-Issues erstellt (inkl. Epic 1)
-Projekt Setup problematisch (aufgrund fehlendes .gitgnores keine Updates möglich)
+Forken erl.
+Klonen erl.
+Docs-Ordner erstellen erl.
+Issues erstellen erl. (bis inkl. Epic 2)
+
+Projekt-Setup problematisch (aufgrund fehlendes .gitgnores keine Updates möglich)
+
 Story 1.1 noch immer offen
 - mögliche Implementierungsmöglichkeiten besprochen
 - aktuelle Herausforderung: Einbau der Abfrage der ID (an welcher Code-Stelle?)
 - Klärung notwndig, ob tatsächlich eine eigene Methode für ausgelagerte Codeteile erforderlich ist
 
+Zuständigkeiten sind klarer zu verteilen
 
+2. Daily ausgelassen - durch direkte Kommunikation zwischen den Gruppenmitgliedern nicht erforderlich
+
+5 von 13 geplanten Storypoints erl.
