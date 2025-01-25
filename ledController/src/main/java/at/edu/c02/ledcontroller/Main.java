@@ -43,6 +43,7 @@ public class Main {
                         } else {
                             System.out.println("LED " + led.getInt("id") + " is currently off: " + isOn + " Color: " + led.getString("color"));
 
+
                         }
 
                     }
