@@ -7,7 +7,8 @@ Spring Planning 2. Sprint
 
 Tasks:
 
-
+Story 1.1 (8 Storypoints) - Leonid, Petra
+Story 1.2 (5 Storypoints) - Daniel, Sara
 
 
 1. Daily
